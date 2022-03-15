@@ -3,9 +3,13 @@ nav{
     background-color: rgb(44, 63, 80);
 }
 
+#About,
 #jumbotron{
     background-color: rgb(26, 188, 156);
+    color: white;
 }
+
+
 
 #line{
     display: inline-block;
@@ -15,10 +19,19 @@ nav{
     vertical-align: 6px;
 }
 
+#line-blak{
+    display: inline-block;
+    height: 3px;
+    width: 45px;
+    background-color: black;
+    vertical-align: 6px;
+}
+
 i{
     font-size: 25px;
 }
 
-#jumbotron{
-    color: white;
+
+img{
+    width: 100%;
 }
