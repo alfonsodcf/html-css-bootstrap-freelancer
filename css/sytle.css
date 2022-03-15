@@ -1,0 +1,24 @@
+nav{
+    height: 50px;
+    background-color: rgb(44, 63, 80);
+}
+
+#jumbotron{
+    background-color: rgb(26, 188, 156);
+}
+
+#line{
+    display: inline-block;
+    height: 3px;
+    width: 45px;
+    background-color: white;
+    vertical-align: 6px;
+}
+
+i{
+    font-size: 25px;
+}
+
+#jumbotron{
+    color: white;
+}
