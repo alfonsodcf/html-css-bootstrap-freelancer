@@ -10,119 +10,139 @@
     <link rel="stylesheet" href="./css/sytle.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <header id="home-header">
+        <nav class="navbar navbar-expand-md navbar-dark h-100">
+            <div class="container-fluid text-uppercase">
+              <a class="navbar-brand" href="#">Start Bootstrap</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  
+                  
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
 
-        </nav>
     </header>
 
     <main>
+
+        <section id="jumbotron" class="cs-bg-green text-uppercase">
+            <img src="./img/avatar.svg" alt="avatar">
+            <h1>Start Bootstrap</h1>
+            <div class="cs-star-wrapper">
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Graphic Artist - Web Designer - Illustrator</p>
+        </section>
+
+       
+        <section id="portfolio" class="text-uppercase">
+            
+            <div class="container">
+                <h2>portfolio</h2>
+                <div class="cs-star-wrapper cs-dark">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            
+            <div class="row gy-3">
+               
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="img-wrapper">
+                        <div class="cs-layover">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <img src="./img/cabin.png" alt="cabin" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="img-wrapper">
+                        <div class="cs-layover">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <img src="./img/cake.png" alt="cake" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="img-wrapper">
+                        <div class="cs-layover">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <img src="./img/circus.png" alt="circus" class="img-fluid">
+                    </div>
+                </div>
+                
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="img-wrapper">
+                        <div class="cs-layover">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <img src="./img/game.png" alt="game" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="img-wrapper">
+                        <div class="cs-layover">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <img src="./img/safe.png" alt="safe" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="img-wrapper">
+                        <div class="cs-layover">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <img src="./img/submarine.png" alt="submarine" class="img-fluid">
+                    </div>
+                </div>
+
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="cs-bg-green text-uppercase">
+            <div class="cs-wrapper">
+                <div class="container-fluid">
+                    <h2>About</h2>
+                    <div class="cs-star-wrapper">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="row gy-3">
+                        <div class="col-12 col-sm-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas itaque beatae obcaecati exercitationem tenetur inventore laboriosam aliquam incidunt dolor necessitatibus! Velit quisquam suscipit dolore natus minus consectetur magnam pariatur illum. </div>
+                        <div class="col-12 col-sm-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quasi esse inventore ipsam accusamus quod. Voluptates soluta voluptas odit debitis exercitationem in pariatur repudiandae beatae mollitia quibusdam, veritatis maxime? Qui! </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="text-uppercase">
+            <div class="cs-star-wrapper cs-dark">
+                <i class="fa-solid fa-star"></i>
+            </div>
+
+
+        </section>
         
-        <div id="jumbotron">
-            <div class="container">
-                <div class="row justify-content-center">
-                
-                    <div class="col-7 py-3">
-                        <img src="./img/avatar.svg" alt="avatar">
-                    </div>
-
-                
-                    <h1 class="text-center">Start Bootstrap</h1>
-                
-
-                    <div class="text-center py-2">
-                        <div id="line"></div>
-                            <i class="fa-solid fa-star"></i>
-                        <div id="line"></div>
-                    </div>
-
-                    <p>Graphic artist - Web designer - Illustrator</p>
-                    
-                </div>
-            </div>
-        </div>
-
-        <section>
-            <div class="container">
-                <div class="row justify-content-center">
-                
-                    <h2 class="text-center py-3">Portfolio</h2>
-                
-                    <div class="text-center">
-                        <div id="line-blak"></div>
-                            <i class="fa-solid fa-star"></i>
-                        <div id="line-blak"></div>
-                    </div>
-
-                    <div class="col-12 py-2">
-                        <img src="./img/cabin.png" alt="cabin">
-                    </div>
-
-                    <div class="col-12 py-2">
-                        <img src="./img/cake.png" alt="cake">
-                    </div>
-                    
-                    <div class="col-12 py-2">
-                        <img src="./img/circus.png" alt="circus">
-                    </div>
-
-                    <div class="col-12 py-2">
-                        <img src="./img/game.png" alt="game">
-                    </div>
-
-                    <div class="col-12 py-2">
-                        <img src="./img/safe.png" alt="safe">
-                    </div>
-
-                    <div class="col-12 py-2">
-                        <img src="./img/submarine.png" alt="submarine">
-                    </div>
-
-                </div>
-            </div>
-        </section>
- 
-        <section id="About">
-            <div class="container">
-                <div class="row justify-content-center">
-            
-                    <h2 class="text-center py-3">About</h2>
-
-                    <div class="text-center py-2">
-                        <div id="line"></div>
-                            <i class="fa-solid fa-star"></i>
-                        <div id="line"></div>
-                    </div>
-
-                    <div class="col-8">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem officiis veritatis voluptate eligendi, porro ipsum dolor cum earum soluta voluptatem rerum delectus nemo </p>
-                    </div>
-
-                    <div class="col-8">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem officiis veritatis voluptate eligendi,</p>
-                    </div>
-                
-                </div>
-            </div>
-
-        </section>
-            
-        <section >
-            <div class="container">
-                <div class="row justify-content-center">
-            
-                    <h2 class="text-center py-3">Contact me</h2>
-
-                    <div class="text-center">
-                        <div id="line-blak"></div>
-                            <i class="fa-solid fa-star"></i>
-                        <div id="line-blak"></div>
-                    </div>
-                
-                </div>
-            </div>
-
-        </section>
+        
     </main>
 
     <footer>
