@@ -7,6 +7,14 @@
     background-color: rgb(26, 188, 156);
 }
 
+.cs-bg-blue-footer{
+    background-color: #3A546D;
+}
+
+.cs-bg-bluescuro-footer{
+    background-color: #2C3E50;
+}
+
 .cs-wrapper{
     width: 60%;
     margin: 0 auto;
@@ -110,3 +118,6 @@ p {
     color: white;
 }
 
+.cs-margin-top{
+    margin-top: 45px;
+}
